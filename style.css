@@ -29,3 +29,8 @@
 
     background-color: #1F2937;
 }
+
+.imagetextbox {
+    display: flex;
+    justify-content: space-around;
+}
