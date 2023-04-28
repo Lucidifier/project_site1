@@ -20,3 +20,12 @@
     color: #F9FAF8;
     flex-grow: 1;
 }
+
+.signupimg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+
+    background-color: #1F2937;
+}
