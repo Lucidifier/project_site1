@@ -46,3 +46,14 @@
 .qperson {
     align-self: flex-end;
 }
+
+.callaction {
+    display: flex;
+    margin: 50px 30px;
+    background-color: #3882f6;
+}
+
+.persuetosign {
+    display: flex;
+    flex-direction: column;
+}
