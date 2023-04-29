@@ -8,14 +8,25 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 30px;
+    justify-content: center;
+    gap: 0px;
 
-    padding: 20px 300px;
+    padding: 20px 500px;
 
     background-color: #1F2937;
+
 }
+
+.left_header {
+}
+
+.right_header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+
 
 .header a {
     text-decoration: none;
@@ -34,48 +45,55 @@ body {
 
 .signupimg {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 30px;
-    
-    padding: 100px 0px;
-    margin-left: -40px ;
-
+    gap: 100px; 
+    padding: 40px 400px;
+    margin-left: -100px;
+   
     background-color: #1F2937;
+}
 
+.sui_textbutton {
+    height: 300px;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .sui_textbig {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
-    
-    width: 400px;
+    flex-grow: 1;
 }
 
 .sui_textsmall {
-    width: 400px;
-
     font-size: 18px;
     color: #E5E7EB;
+    flex-grow: 1;
 }
 
 .sui_image  {
-    border: 2px solid red;
     transform: rotate(90deg);
+}
 
 .signupimg button {
     color: #f9faf8;
     background-color: #3882f6;
     border: 3px solid #3882f6;
     border-radius: 5px;
-
-    margin-top: 10px;
-
-    width: 150px;
-    height: 40px;
-
+   
     font-weight: 700;
+    flex-grow: 1;
+
+    width: 100px;
+    height: 10px;
 }
 
 .imagetextbox {
