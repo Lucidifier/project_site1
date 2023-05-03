@@ -134,15 +134,23 @@ body {
 }
 
 .quote {
-    display: flex;
-    flex-direction: column;
-
     background-color: #e5e7eb;
+    padding: 100px 200px;
 }
 
+.qtext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
 
 .qperson {
-    align-self: flex-end;
+    display: block;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 400;
+    text-align: right;
 }
 
 .callaction {
