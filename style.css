@@ -54,8 +54,6 @@ body {
 .sui_textbutton {
     height: 300px;
     width: 400px;
-    margin: 0;
-    padding: 0;
 
     display: flex;
     flex-direction: column;
@@ -89,8 +87,8 @@ body {
     font-weight: 700;
     flex-grow: 1;
 
-    width: 100px;
-    height: 10px;
+    width: 150px;
+    height: auto;
 }
 
 .imagetextbox {
@@ -155,13 +153,39 @@ body {
 
 .callaction {
     display: flex;
-    margin: 50px 30px;
+    justify-content: center;
+    margin: 100px 400px;
+    padding: 50px 100px;
     background-color: #3882f6;
+    border-radius: 8px;
 }
 
 .persuetosign {
-    display: flex;
-    flex-direction: column;
+    flex-grow: 1;
+
+    color: #f9faf8;
+}
+
+.first_row_call {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.second_row_call {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.callaction button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 3px solid #f9faf8;
+    border-radius: 5px;
+   
+    font-weight: 700;
+
+    width: 150px;
+    height: auto;
 }
 
 .footer {
