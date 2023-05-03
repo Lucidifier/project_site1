@@ -95,11 +95,42 @@ body {
 
 .imagetextbox {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.img_quotes_text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+
+    margin-bottom: 50px;
 }
 
 .img_quotes {
     text-align: center;
+    padding: 50px 100px 100px 100px;
+    
+}
+
+.imagetextbox img {
+    width: 200px;
+    height: 200px;
+
+    border: 7px solid #3882f6;
+    border-radius: 10px;
+}
+
+.imagetextbox blockquote {
+    margin: 0px;
+    padding: 0px; 
+    width: 300px;
+
+    color: #1F2937;
+    font-size: 18px;
+
+    margin-top: 10px;
 }
 
 .quote {
@@ -131,3 +162,6 @@ body {
     text-align: center;
 }
 
+.test {
+    border: 2px solid red;
+}
