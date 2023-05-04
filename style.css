@@ -8,10 +8,11 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-betweengi;
+    justify-content: space-between;
     gap: 0px;
 
-    padding: 20px 500px;
+    padding: 30px 450px; 
+  
 
     background-color: #1F2937;
 
@@ -25,8 +26,9 @@ body {
 
 .right_header {
     display: flex;
-    justify-content: flex-end;
-    gap: 30px;
+    justify-content: center;
+    gap: 10px;
+
 }
 
 
@@ -44,20 +46,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px; 
-    padding: 40px 400px;
-    margin-left: -100px;
+    gap: 100px;
+     
+    padding: 40px;
+
    
     background-color: #1F2937;
 }
 
 .sui_textbutton {
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 500px;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+   justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -65,17 +68,17 @@ body {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
-    flex-grow: 1;
 }
 
 .sui_textsmall {
     font-size: 18px;
     color: #E5E7EB;
-    flex-grow: 1;
 }
 
 .sui_image  {
     transform: rotate(90deg);
+    width: 400px;
+    height: 450px;
 }
 
 .signupimg button {
@@ -85,17 +88,16 @@ body {
     border-radius: 5px;
    
     font-weight: 700;
-    flex-grow: 1;
+    
 
     width: 150px;
-    height: auto;
+    height: 50px;
 }
 
 .imagetextbox {
     display: flex;
     justify-content: center;
-    gap: 100px;
-
+    gap: 40px;
 }
 
 .img_quotes_text {
@@ -133,7 +135,7 @@ body {
 
 .quote {
     background-color: #e5e7eb;
-    padding: 100px 200px;
+    padding: 100px 400px;
 }
 
 .qtext {
@@ -154,7 +156,7 @@ body {
 .callaction {
     display: flex;
     justify-content: center;
-    margin: 100px 400px;
+    margin: 100px 440px;
     padding: 50px 100px;
     background-color: #3882f6;
     border-radius: 8px;
@@ -185,13 +187,15 @@ body {
     font-weight: 700;
 
     width: 150px;
-    height: auto;
+    height: 50px;
 }
 
 .footer {
     background-color: #1F2937;
     color: #f9faf8;
     text-align: center;
+
+    padding: 20px;
 }
 
 .test {
